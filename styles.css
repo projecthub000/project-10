@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+}
+body {
+  
+  font-family: 'helvetica neue';
+  font-weight: 200;
+  font-size: 20px;
+  margin: 0;
+}
+
+h1,
+p {
+  text-align: center;
+  padding: 20px;
+  text-shadow: 2px 2px 2px violet;
+  color: aqua;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clicker {
+  padding: 10px;
+  margin: 5px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color:olive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 2px solid red;
+  box-shadow: 3px 2px 2px blue; 
+}
+.clicker > .mic {
+  font-size: 5rem;
+}
+.clicker:hover {
+  background-color: pink;
+  cursor: pointer;
+}
